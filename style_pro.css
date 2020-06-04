@@ -108,7 +108,7 @@ body{
     height: 100%;
     border-radius: 50%;
     transform: rotate(-60deg);
-    background: url('PROFILE1.PNG');
+    background: url("PROFILE1.png");
     overflow: hidden;
     outline: 5px solid darkblue;
     outline-offset: 18px;
