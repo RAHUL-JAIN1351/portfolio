@@ -106,15 +106,15 @@ body{
 }
 @media screen and (max-width: 320px){
     .container .nav{
-        height: 60px;
+        height: 55px;
     }
     .container .box{
-        padding-top:15px; 
+        padding-top:14px; 
         margin-right: 20px;
     }
     .container .box > div{
         width: 30px;
         height: 3px;
-        margin: 6px auto;
+        margin: 5px auto;
     }
 }
