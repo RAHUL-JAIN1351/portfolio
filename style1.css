@@ -38,3 +38,97 @@
 		padding: 15px;
 	}
 }
+
+
+
+@media screen and (max-width: 1426px){
+	section h1{
+       margin-left: 3em;
+    }
+    section p.s{
+       margin-left: 90px;
+       width: 70%;
+    }
+   .main{
+       width: 90%;
+    }
+    .skil{
+    	width: 30%;
+    }
+    .detail{
+    	width: 35%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1020px){
+	section h1{
+       margin-left: 2em;
+    }
+    section p.s{
+       margin-left: 60px;
+       width: 75%;
+    }
+   .main{
+       width: 100%;
+       margin: 4px auto;
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+    .skil{
+    	width: 30%;
+    }
+    .detail{
+    	width: 35%;
+    }
+}
+
+
+@media screen and (max-width: 990px){
+	section h1{
+       margin-left: 1em;
+    }
+    section p.s{
+       margin-left: 40px;
+       width: 80%;
+    }
+   .main{
+       width: 100%;
+       margin: 4px auto;
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+    .photo{
+       width: 40%;
+       margin-left: 45px;
+    }
+    .skil{
+    	width: 90%;
+    	margin: 5px auto;
+    }
+    .detail{
+    	width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 708px){
+   .main{
+       padding-left: 25px;
+       padding-right: 25px;
+    }
+    .photo{
+       width: 75%;
+       margin: 5px auto;
+    }
+    .skil{
+    	width: 95%;
+    	margin: 5px auto;
+    }
+    .detail{
+    	width: 95%;
+    }
+}
