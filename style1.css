@@ -125,10 +125,185 @@
        margin: 5px auto;
     }
     .skil{
-    	width: 90%;
+    	width: 100%;
     	margin: 5px auto;
     }
     .detail{
-    	width: 90%;
+    	width: 100%;
+     	padding: 5px 10px 10px 0px;
+        margin-left: 0px;
     }
+    section h1{
+        line-height: 40px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 420px){
+	.photo{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1499px){
+  .bund-item{
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .bund{
+    width: 95%;
+  }
+  .bund-item{
+    width: 310px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+
+@media screen and (max-width: 1104px){
+  .bund{
+    width: 100%;
+    margin-left: 5px;
+  }
+  .bund-item{
+    width: 310px;
+  }
+  #portfolio h1{
+    margin-left: 0.6em;
+  }
+}
+
+@media screen and (max-width: 1067px){
+  .bund{
+    width: 100%;
+    margin-left: 40px;
+  }
+  .bund-item{
+    width: 290px;
+  }
+  #portfolio h1{
+    margin-left: 1.8em;
+  }
+}
+@media screen and (max-width: 1049px){
+  .bund{
+    margin-left: 40px;
+  }
+  .bund-item{
+    width: 260px;
+  }
+  #portfolio h1{
+    margin-left: 1.3em;
+  }
+}
+@media screen and (max-width: 970px){
+  .bund{
+    margin-left: 20px;
+  }
+  .bund-item{
+    width: 250px;
+  }
+  #portfolio h1{
+    margin-left: 1.2em;
+  }
+}
+@media screen and (max-width: 914px){
+  .bund{
+    margin-left: 10px;
+  }
+  .bund-item{
+    width: 240px;
+  }
+  #portfolio h1{
+    margin-left: 1.1em;
+  }
+}
+@media screen and (max-width: 840px){
+  .bund{
+    margin-left: 50px;
+  }
+  .bund-item{
+    width: 300px;
+  }
+  #portfolio h1{
+    margin-left: 2em;
+  }
+}
+@media screen and (max-width: 778px){
+  .bund{
+    margin-left: 20px;
+  }
+  .bund-item{
+    width: 300px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 732px){
+  .bund{
+    margin-left: 30px;
+  }
+  .bund-item{
+    width: 270px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 680px){
+  .bund{
+    margin-left: 10px;
+    margin: 5px;
+  }
+  .bund-item{
+    width: 250px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 600px){
+  .bund{
+    margin: 20px auto;
+  }
+  .bund-item{
+    width: 250px;
+    text-align: center;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 588px){
+  .bund{
+    margin-left: 10px;
+    margin: 5px;
+  }
+  .bund-item{
+    width: 100%;
+    height: 340px;
+    margin: -10px 20px;
+    padding: 20px;
+  }
+  .hid{
+    top: -306px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 320px){
+  .bund{
+    margin-left: 10px;
+    margin: 0px;
+  }
+  .bund-item{
+    width: 100%;
+    height: 280px;
+    margin: -10px 7px;
+  }
 }
