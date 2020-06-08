@@ -1,7 +1,7 @@
 @media screen and (max-width: 900px){
 	.nav ul{
 		width: 100%;
-		visibility:none;
+		visibility:hidden;
 		transition: visibility 0.4s ease;
 		background: #f2f2fc;
 	}
