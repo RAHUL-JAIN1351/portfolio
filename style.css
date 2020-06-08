@@ -7,6 +7,7 @@ body{
     box-sizing: border-box;
     font-size: 16px;
     color: #504e70;
+    overflow-x: hidden;
     font-family: 'poppins';
 }
 a{
@@ -52,10 +53,10 @@ header{
 .box > div{
     width: 35px;
     height: 5px;
-    border-radius:4px;
-    background: #f2f2fc;
+    background: #f2f2fc/*#504e70*/;
+    box-shadow: 0px 0px 3px black;
     margin: 6px auto;
-    box-shadow:0px 0px 3px black;
+    border-radius: 4px;
     transition: transform 0.5s ease;
 }
 .nav{
@@ -152,7 +153,7 @@ section{
     background: #fdf9ff;
     padding-top: 100px;
 }
-section h1{
+section h1 , #portfolio h1{
     line-height: 60px;
     padding: 10px 10px;
     margin-left: 5.5em;
@@ -171,7 +172,7 @@ section p.s{
     text-wrap: wrap;
     padding: 10px;
 }
-section h1 span{
+section h1 span ,#portfolio h1 span{
     border-bottom: 5px solid #ff0028;
 }
 .main{
@@ -238,4 +239,72 @@ p span{
     position: absolute;
     right: 10px;
     top: -32px;
+}
+
+#portfolio{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+}
+#portfolio h1{
+    line-height: 60px;
+    padding: 10px 10px;
+    margin-left: 3em;
+    font-family: 'poppins';
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.bund{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+}
+.bund-item{
+    width: 290px;
+    height: 200px;
+    background: white;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+.bund-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    transition: all 0.5s;
+}
+.hid{
+    position: relative;
+    left: 0px;
+    border-radius: 16px;
+    top: -206.5px;
+    width: 100%;
+    height: 0%;
+    background: rgba(242,242,252,0.8);
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+    font-family: courier;
+    color: #504e70;
+    text-shadow: 0px 0px 1.3px black;
+}
+
+.bund-item:hover .hid{
+    height: 100%;
+}
+.bund-item:hover .bund-item img{
+    opacity: 0.7;
 }
