@@ -55,6 +55,7 @@ header{
     border-radius:4px;
     background: #f2f2fc;
     margin: 6px auto;
+    box-shadow:0px 0px 4px black;
     transition: transform 0.5s ease;
 }
 .nav{
