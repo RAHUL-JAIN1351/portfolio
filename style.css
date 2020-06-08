@@ -52,6 +52,7 @@ header{
 .box > div{
     width: 35px;
     height: 5px;
+    border-radius:4px;
     background: #504e70;
     margin: 6px auto;
     transition: transform 0.5s ease;
