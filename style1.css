@@ -236,7 +236,7 @@
 }
 @media screen and (max-width: 778px){
   .bund{
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .bund-item{
     width: 300px;
@@ -259,13 +259,30 @@
 @media screen and (max-width: 680px){
   .bund{
     margin-left: 10px;
-    margin: 5px;
+    padding: 0;
   }
   .bund-item{
     width: 250px;
   }
   #portfolio h1{
     margin-left: 1em;
+  }
+}
+@media screen and (max-width: 623px){
+  .bund{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .bund-item{
+    width: 350px;
+    height: 270px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+  .hid{
+    top: -276.5px;
   }
 }
 @media screen and (max-width: 600px){
@@ -273,8 +290,8 @@
     margin: 20px auto;
   }
   .bund-item{
-    width: 250px;
-    text-align: center;
+    width: 350px;
+    height: 270px;
   }
   #portfolio h1{
     margin-left: 1em;
@@ -282,20 +299,31 @@
 }
 @media screen and (max-width: 588px){
   .bund{
-    margin-left: 10px;
-    margin: 5px;
+    width: 100%;
   }
   .bund-item{
-    width: 100%;
-    height: 340px;
+    width: 85%;
+    height: 290px;
     margin: -10px 20px;
     padding: 20px;
+    justify-content: center;
   }
   .hid{
-    top: -306px;
+    top: -256.5px;
   }
   #portfolio h1{
     margin-left: 1em;
+  }
+}
+@media screen and (max-width: 360px){
+   #portfolio h1{
+    font-size: 20px;
+  }
+  .bund-item{
+    height: 220px;
+  }
+  .hid{
+     top: -187px;
   }
 }
 @media screen and (max-width: 320px){
@@ -303,10 +331,16 @@
     margin-left: 10px;
     margin: 0px;
   }
+  #portfolio h1{
+    font-size: 20px;
+  }
   .bund-item{
     width: 100%;
-    height: 280px;
+    height: 220px;
     margin: -10px 7px;
+  }
+  .hid{
+     top: -187px;
   }
 }
 
@@ -315,6 +349,7 @@
 @media screen and (max-width: 414px){
   .con{
     width: 100%;
+    margin-left: -4px;
   }
   .con h1{
     font-size: 28px;
