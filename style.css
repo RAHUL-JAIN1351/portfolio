@@ -405,4 +405,6 @@ p span{
    left:50%;
    top:50%;
    transform:translate(-50%,-50%);
+   color: #504e70;
+   font-size:20px;
 }
