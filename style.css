@@ -406,5 +406,14 @@ p span{
    top:50%;
    transform:translate(-50%,-50%);
    color: #504e70;
-   font-size:20px;
+   font-size:24px;
+}
+.icon-list{
+   width:70px;
+   height:120px;
+   position:relative;
+   left:0;
+   bottom:150px;
+   background:#151515;
+   
 }
