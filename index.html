@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style1.css"/>
 </head>
 <body>
-<div class="container" id="home">
+ <div class="container" id="home">
      <header>
         <div class="nav">
              <div class="logo">
@@ -22,8 +22,8 @@
              <nav id="n">
                 <ul id="no">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="index_rj.html#about">About</a></li>
+                    <li><a href="index_rj.html#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
              </nav>
@@ -117,7 +117,7 @@
           <div class="bund">
 
                <div class="bund-item">
-                    <img src="toggle.PNG"/>
+                    <img src="toggle.png"/>
                     <div class="hid">
                          <div class="text">
                               Toggle Switch
@@ -126,7 +126,7 @@
                </div>
 
                <div class="bund-item">
-                    <img src="border_anim.PNG"/>
+                    <img src="border_anim.png"/>
                     <div class="hid">
                          <div class="text">
                               Border Animation
@@ -135,7 +135,7 @@
                </div>
 
                <div class="bund-item">
-                    <img src="loader.PNG"/>
+                    <img src="loader.png"/>
                     <div class="hid">
                          <div class="text">
                               Preloader
@@ -144,7 +144,7 @@
                </div>
 
                <div class="bund-item">
-                    <img src="hover.PNG"/>
+                    <img src="hover.png"/>
                     <div class="hid">
                          <div class="text">
                               Hover Effect
@@ -153,7 +153,7 @@
                </div>
 
                <div class="bund-item">
-                    <img src="port1.PNG"/>
+                    <img src="port1.png"/>
                     <div class="hid">
                          <div class="text">
                               Loader 2.0
@@ -162,6 +162,41 @@
                </div>
 
           </div>
+     </div>
+
+     
+     <div id="contact">
+          <div class="con">
+               <h1><span>Con</span>tact Us :</h1>
+               <div class="in">
+               <form action="">
+               <div class="form-grp">
+                    <label for="em">
+                           Email:
+                    </label><br>
+                    <input type="email" id="em" required/>
+               </div>
+
+               <div class="form-grp">
+                    <label for="sub">
+                           Subject:
+                    </label><br>
+                    <input type="text" id="sub"/ required>
+               </div>
+
+               <div class="form-grp">
+                    <label for="mes">
+                           Message:
+                    </label><br>
+                    <textarea id="mes" rows="9" cols="20" width="200" height="150" style="resize:none;overflow:auto;" required></textarea>
+               </div>
+
+               <div class="form-grp">
+                    <a href="#" class="btn">Submit</a>
+               </div>
+               </form>
+              </div>
+          </div>     
      </div>
 
      </header>
@@ -177,7 +212,7 @@
             document.getElementById('bar1').style.transform = 'rotate(-45deg) translate(-10px,10px)';
             document.getElementById('bar3').style.transform = 'rotate(45deg) translate(-7px,-5px)';
             document.getElementById('bar2').style.opacity = '0';
-            document.getElementById('no').style.visibility = 'visible';
+            document.getElementById('no').style.display = 'block';
 
             i=1;
           }
@@ -185,7 +220,7 @@
             document.getElementById('bar1').style.transform = 'rotate(0deg) ';
             document.getElementById('bar3').style.transform = 'rotate(0deg) ';
             document.getElementById('bar2').style.opacity = '1';
-            document.getElementById('no').style.visibility = 'hidden';
+            document.getElementById('no').style.display = 'none';
 
             i=0;
           }
