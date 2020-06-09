@@ -391,10 +391,10 @@ p span{
 
 
 .social{
-    position:absolute;
-    left:70vw;
-    top:70vh;
-    width:100px;
-    height:100px;
+    position:fixed;
+    left:75vw;
+    top:85vh;
+    width:60px;
+    height:60px;
     background:#151515;
 }
