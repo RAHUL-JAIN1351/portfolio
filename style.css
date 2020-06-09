@@ -448,3 +448,16 @@ p span{
 .do .s{
     display: block;
 }
+
+.footer{
+    width:100vh;
+    height:30px;
+    padding:20px;
+    text-align:center;
+}
+.footer p{
+    font-size:28px;
+    font-family:'poppins';
+    color:#504e70;
+    font-weight:650;
+}
