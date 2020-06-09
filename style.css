@@ -388,3 +388,13 @@ p span{
     font-size: 25px;
     transform: scale(1.1, 1)
 }
+
+
+.social{
+    position:absolute;
+    left:70vh;
+    top:70vh;
+    width:100px;
+    height:100px;
+    background:#151515;
+}
