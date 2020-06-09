@@ -450,14 +450,16 @@ p span{
 }
 
 .footer{
-    width:100vh;
-    height:30px;
+    max-width:100vh;
+    height:80px;
     padding:20px;
     text-align:center;
+    background:#151515;
 }
 .footer p{
     font-size:28px;
     font-family:'poppins';
-    color:#504e70;
+    color:white;
     font-weight:650;
+    line-height:40px;
 }
