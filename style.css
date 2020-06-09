@@ -266,7 +266,7 @@ p span{
 .bund-item{
     width: 290px;
     height: 200px;
-    background: #fdf9ff;
+    background: white;
     border-radius: 16px;
     cursor: pointer;
     margin: 20px;
@@ -281,12 +281,12 @@ p span{
     position: relative;
     left: 0px;
     border-radius: 16px;
-    top: -204px;
+    top: -206.5px;
     width: 100%;
     height: 0%;
     background: rgba(242,242,252,0.8);
     overflow: hidden;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .text{
     position: absolute;
@@ -307,7 +307,7 @@ p span{
     height: 100%;
 }
 .bund-item:hover .bund-item img{
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 #contact{
