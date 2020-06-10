@@ -430,13 +430,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (width:1024px) and (height: 1366px){
   section#about{
     padding-top: 400px;
   }
   #portfolio{
     padding-top: 400px;
-    margin-left: 20px;
   }
   #contact{
     padding-top: 400px;
